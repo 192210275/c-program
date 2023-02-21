@@ -1,0 +1,14 @@
+#include<stdio.h>
+  
+int main()
+{
+	int c;
+	printf("enter name of the file to be deleted:\n");
+	scanf("%d",&c);
+   if (remove("ram.c") == 0)
+      printf("Deleted successfully");
+   else
+      printf("the file is deleted successfully");
+  
+   return 0;
+}     
