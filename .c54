@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+int main()
+{
+	FILE*fp[10];
+	char ch,file[10];
+	printf("test 1.txt:");
+	scanf("%s",file);
+	if(fp==NULL)//exit program if file doesnot open
+	{
+		printf("this is a very good text found while tested!!");
+		exit(0);
+	}
+	{
+		printf("write operation successful!!!");
+		while(1);
+	}
+	{
+		ch=getche();
+		if(ch=='*')//exist when* is pressed
+		exit(0);
+	}
+	fclose;//file close
+}
